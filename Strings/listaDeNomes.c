@@ -24,7 +24,7 @@ int main(){
         printf("1. Cadastrar novo nome\n");
         printf("2. Sair\n");
         scanf(" %d", &opcao);
-        fflush(stdin);
+        while(getchar() != '\n');
         if(opcao != 2){
             printf("Digite um novo nome:\n");
             
